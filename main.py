@@ -11,13 +11,20 @@ gsd = 148
 
 BASE_DIR = Path(__file__).resolve().parent
 LOG_FILE = BASE_DIR / "log.txt"
+LOG_FILE = "log.txt"
 
 start_time = time()
 
+
 def log(msg):
-    elapsed = timedelta(seconds=time() - start_time)
+    elapsed = time() - start_time
+    elapsed_rounded = round(elapsed, 2)
+    hours, remainder = divmod(elapsed_rounded, 3600)
+    minutes, seconds = divmod(remainder, 60)
+    timestamp = f"{int(hours):02}:{int(minutes):02}:{seconds:05.2f}"
+
     with open(LOG_FILE, "a") as f:
-        f.write(f"{str(elapsed)} | {msg}\n")
+        f.write(f"{timestamp} | {msg}\n")
 
 log("START")
 
