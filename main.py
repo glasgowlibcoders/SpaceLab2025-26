@@ -54,7 +54,7 @@ def get_time(path):
                 log(f"EXIF time missing {path.name}")
                 return None
             dt_obj = datetime.strptime(dt, "%Y:%m:%d %H:%M:%S")
-            log(f"EXIF time read {path.name} | {dt_obj}")
+            log(f"EXIF time read {path.name}")
             return dt_obj
     except Exception:
         log(f"EXIF read failed {path.name}")
@@ -180,13 +180,13 @@ for i in range(len(captured_images)):
 
         m = matches(d1, d2)
         if len(m) < 5:
-            log("Pair rejected Insufficient matches")
+            log("Pair rejected - Insufficient matches")
             continue
 
         c1, c2 = coords(kp1, kp2, m)
         dist = top_distance(c1, c2)
         if dist == 0:
-            log("Speed rejected Invalid distance")
+            log("Speed rejected - Invalid distance")
             continue
 
         v = speed(dist, gsd, dt)
