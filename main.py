@@ -32,7 +32,7 @@ while time() - start_time < 360:
     try:
         cam.take_photo(path)
         captured_images.append(path)
-        log(f"Image taken {img_number} - Time since start: {time() - start_time:.2f}s")
+        log(f"Image taken {img_number}")
         log(f"Image capture success {img_number}")
     except Exception:
         log(f"Image capture failure {img_number}")
