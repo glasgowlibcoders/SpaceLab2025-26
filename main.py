@@ -12,13 +12,14 @@ gsd = 148
 BASE_DIR = Path(__file__).resolve().parent
 LOG_FILE = BASE_DIR / "log.txt"
 
-# Loging function
+start_time = time()
+
 def log(msg):
+    elapsed = timedelta(seconds=time() - start_time)
     with open(LOG_FILE, "a") as f:
-        f.write(f"{time():.2f} | {msg}\n")
+        f.write(f"{str(elapsed)} | {msg}\n")
 
 log("START")
-start_time = time()
 
 cam = Camera()
 captured_images = []
