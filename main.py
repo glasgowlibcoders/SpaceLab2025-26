@@ -7,130 +7,122 @@ import cv2
 import math
 import numpy as np
 
-INTERVAL = 2
-DURATION = 240
-FEATURE_NUMBER = 2000
-COMPARE_LIMIT = 2
-FILTER_OUTLIERS = True
-MIN_TIME_DIFF = 2
-MAX_TIME_DIFF = 5
-TOP_PERCENTILE = 75
-MAX_PIXEL_SHIFT = 1000
-
-ALTITUDE = 420_000
-PIXEL_SIZE = 1.12e-6
-FOCAL_LENGTH = 3.04e-3
-GSD = ALTITUDE * PIXEL_SIZE / FOCAL_LENGTH
+gsd = 146
 
 BASE_DIR = Path(__file__).resolve().parent
-IMAGE_DIR = BASE_DIR / "AstroPiImagesForTheMitchell"
-IMAGE_DIR.mkdir(parents=True, exist_ok=True)
-
 cam = Camera()
-
 start_time = time()
-last_number = 0
+
 captured_images = []
+img_number = 0
 
-while time() - start_time < DURATION:
-    last_number += 1
-    filename = IMAGE_DIR / f"image{last_number}.jpg"
-    cam.take_photo(filename)
-    captured_images.append(filename)
-    sleep(INTERVAL)
+while time() - start_time < 360:
+    img_number += 1
+    path = BASE_DIR / f"image{img_number}.jpg"
+    cam.take_photo(path)
+    captured_images.append(path)
+    sleep(2)
 
-def get_time(image_path: Path) -> datetime:
-    with open(image_path, 'rb') as f:
-        img = Image(f)
-        return datetime.strptime(
-            img.get("datetime_original"), '%Y:%m:%d %H:%M:%S'
-        )
+def get_time(path):
+    try:
+        with open(path, "rb") as f:
+            img = Image(f)
+            dt = img.get("datetime_original")
+            if not dt:
+                return None
+            return datetime.strptime(dt, "%Y:%m:%d %H:%M:%S")
+    except Exception:
+        return None
 
-def get_time_difference(img1: Path, img2: Path) -> float:
-    return (get_time(img2) - get_time(img1)).total_seconds()
+def time_diff(a, b):
+    t1 = get_time(a)
+    t2 = get_time(b)
+    if t1 is None or t2 is None:
+        return None
+    return (t2 - t1).total_seconds()
 
-def convert_to_cv(image_path: Path):
-    return cv2.imread(str(image_path), cv2.IMREAD_GRAYSCALE)
+def to_cv(path):
+    return cv2.imread(str(path), cv2.IMREAD_GRAYSCALE)
 
-def calculate_features(img1_cv, img2_cv):
-    orb = cv2.ORB_create(nfeatures=FEATURE_NUMBER)
-    kp1, des1 = orb.detectAndCompute(img1_cv, None)
-    kp2, des2 = orb.detectAndCompute(img2_cv, None)
-    return kp1, kp2, des1, des2
+def features(a, b):
+    orb = cv2.ORB_create(nfeatures=2000)
+    kp1, d1 = orb.detectAndCompute(a, None)
+    kp2, d2 = orb.detectAndCompute(b, None)
+    return kp1, kp2, d1, d2
 
-def calculate_matches(des1, des2):
+def matches(d1, d2):
     bf = cv2.BFMatcher(cv2.NORM_HAMMING)
-    matches = bf.knnMatch(des1, des2, k=2)
-    return [m for m, n in matches if m.distance < 0.75 * n.distance]
+    raw = bf.knnMatch(d1, d2, k=2)
+    return [m for m, n in raw if m.distance < 0.75 * n.distance]
 
-def find_matching_coordinates(kp1, kp2, matches):
-    coords1, coords2 = [], []
-    for m in matches:
-        coords1.append(kp1[m.queryIdx].pt)
-        coords2.append(kp2[m.trainIdx].pt)
-    return coords1, coords2
+def coords(kp1, kp2, m):
+    a, b = [], []
+    for x in m:
+        a.append(kp1[x.queryIdx].pt)
+        b.append(kp2[x.trainIdx].pt)
+    return a, b
 
-def calculate_top_percent_distance(coords1, coords2, top_percent=TOP_PERCENTILE):
-    distances = [
-        math.hypot(x1 - x2, y1 - y2)
-        for (x1, y1), (x2, y2) in zip(coords1, coords2)
-    ]
-    distances = [d for d in distances if d <= MAX_PIXEL_SHIFT]
-    if not distances:
-        return 0
+def top_distance(a, b):
+    d = [math.hypot(x1 - x2, y1 - y2) for (x1, y1), (x2, y2) in zip(a, b)]
+    d = [x for x in d if x <= 1000]
+    if not d:
+        return 0.0
+    d.sort(reverse=True)
+    n = max(1, len(d) * 75 // 100)
+    return float(np.mean(d[:n]))
 
-    distances.sort(reverse=True)
-    top_count = max(1, len(distances) * top_percent // 100)
-    return float(np.mean(distances[:top_count]))
+def speed(px, gsd, dt):
+    if dt <= 0:
+        return 0.0
+    return (px * gsd / 1000.0) / dt
 
-def calculate_speed(distance_px, gsd, time_s):
-    if time_s <= 0:
-        return 0
-    return (distance_px * gsd / 1000) / time_s
-
-def filter_outliers(speeds):
-    if len(speeds) < 4:
-        return speeds
-    q1, q3 = np.percentile(speeds, [25, 75])
+def filter_outliers(s):
+    if len(s) < 4:
+        return s
+    q1, q3 = np.percentile(s, [25, 75])
     iqr = q3 - q1
-    return [s for s in speeds if q1 - 1.5 * iqr <= s <= q3 + 1.5 * iqr]
+    lo = q1 - 1.5 * iqr
+    hi = q3 + 1.5 * iqr
+    return [x for x in s if lo <= x <= hi]
 
 pair_speeds = []
 
 for i in range(len(captured_images)):
-    for j in range(i + 1, min(i + 1 + COMPARE_LIMIT, len(captured_images))):
-        img1 = captured_images[i]
-        img2 = captured_images[j]
+    for j in range(i + 1, min(i + 3, len(captured_images))):
 
-        dt = get_time_difference(img1, img2)
-        if dt < MIN_TIME_DIFF or dt > MAX_TIME_DIFF:
+        if time() - start_time >= 585:
+            break
+
+        a = captured_images[i]
+        b = captured_images[j]
+
+        dt = time_diff(a, b)
+        if dt is None or not (1.6 <= dt <= 5):
             continue
 
-        img1_cv = convert_to_cv(img1)
-        img2_cv = convert_to_cv(img2)
+        img1 = to_cv(a)
+        img2 = to_cv(b)
 
-        kp1, kp2, des1, des2 = calculate_features(img1_cv, img2_cv)
-        if des1 is None or des2 is None:
+        kp1, kp2, d1, d2 = features(img1, img2)
+        if d1 is None or d2 is None:
             continue
 
-        matches = calculate_matches(des1, des2)
-        if len(matches) < 5:
+        m = matches(d1, d2)
+        if len(m) < 5:
             continue
 
-        coords1, coords2 = find_matching_coordinates(kp1, kp2, matches)
-        top_distance = calculate_top_percent_distance(coords1, coords2)
-        if top_distance == 0:
+        c1, c2 = coords(kp1, kp2, m)
+        dist = top_distance(c1, c2)
+        if dist == 0:
             continue
 
-        speed = calculate_speed(top_distance, GSD, dt)
-        pair_speeds.append(speed)
+        pair_speeds.append(speed(dist, gsd, dt))
 
-final_speeds = filter_outliers(pair_speeds) if FILTER_OUTLIERS else pair_speeds
-median_speed = float(np.median(final_speeds)) if final_speeds else 0.0
+    if time() - start_time >= 585:
+        break
 
-RESULT_FILE = BASE_DIR / "result.txt"
-with open(RESULT_FILE, "w") as f:
-    f.write(f"{median_speed:.5g}")
+final = filter_outliers(pair_speeds)
+mean_speed = float(np.mean(final)) if final else 0.0
 
-print(f"Estimated ISS speed (median): {median_speed:.5g} km/s")
-print(f"Result saved to: {RESULT_FILE}")
+with open(BASE_DIR / "result.txt", "w") as f:
+    f.write(f"{mean_speed:.5g}")
