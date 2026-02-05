@@ -7,20 +7,34 @@ import cv2
 import math
 import numpy as np
 
-gsd = 146
+gsd = 148
 
 BASE_DIR = Path(__file__).resolve().parent
-cam = Camera()
+LOG_FILE = BASE_DIR / "log.txt"
+
+# Loging function
+def log(msg):
+    with open(LOG_FILE, "a") as f:
+        f.write(f"{time():.2f} | {msg}\n")
+
+log("START")
 start_time = time()
 
+cam = Camera()
 captured_images = []
 img_number = 0
 
+# Capture images
 while time() - start_time < 360:
     img_number += 1
     path = BASE_DIR / f"image{img_number}.jpg"
-    cam.take_photo(path)
-    captured_images.append(path)
+    try:
+        cam.take_photo(path)
+        captured_images.append(path)
+        log(f"Image taken {img_number} - Time since start: {time() - start_time:.2f}s")
+        log(f"Image capture success {img_number}")
+    except Exception:
+        log(f"Image capture failure {img_number}")
     sleep(2)
 
 def get_time(path):
@@ -29,9 +43,13 @@ def get_time(path):
             img = Image(f)
             dt = img.get("datetime_original")
             if not dt:
+                log(f"EXIF time missing {path.name}")
                 return None
-            return datetime.strptime(dt, "%Y:%m:%d %H:%M:%S")
+            dt_obj = datetime.strptime(dt, "%Y:%m:%d %H:%M:%S")
+            log(f"EXIF time read {path.name} | {dt_obj}")
+            return dt_obj
     except Exception:
+        log(f"EXIF read failed {path.name}")
         return None
 
 def time_diff(a, b):
@@ -42,18 +60,33 @@ def time_diff(a, b):
     return (t2 - t1).total_seconds()
 
 def to_cv(path):
-    return cv2.imread(str(path), cv2.IMREAD_GRAYSCALE)
+    img = cv2.imread(str(path), cv2.IMREAD_GRAYSCALE)
+    if img is None:
+        log(f"Image load failed {path.name}")
+    else:
+        log(f"Image load success {path.name}")
+    return img
 
 def features(a, b):
     orb = cv2.ORB_create(nfeatures=2000)
     kp1, d1 = orb.detectAndCompute(a, None)
     kp2, d2 = orb.detectAndCompute(b, None)
+    if d1 is None or d2 is None:
+        log(f"Feature detection failed {a} or {b}")
     return kp1, kp2, d1, d2
 
 def matches(d1, d2):
     bf = cv2.BFMatcher(cv2.NORM_HAMMING)
     raw = bf.knnMatch(d1, d2, k=2)
-    return [m for m, n in raw if m.distance < 0.75 * n.distance]
+    good = []
+    for r in raw:
+        if len(r) != 2:
+            continue
+        m, n = r
+        if m.distance < 0.75 * n.distance:
+            good.append(m)
+    log(f"Match count {len(good)}")
+    return good
 
 def coords(kp1, kp2, m):
     a, b = [], []
@@ -63,16 +96,37 @@ def coords(kp1, kp2, m):
     return a, b
 
 def top_distance(a, b):
-    d = [math.hypot(x1 - x2, y1 - y2) for (x1, y1), (x2, y2) in zip(a, b)]
-    d = [x for x in d if x <= 1000]
-    if not d:
+    dx, dy, d = [], [], []
+
+    for (x1, y1), (x2, y2) in zip(a, b):
+        ddx = x2 - x1
+        ddy = y2 - y1
+        dist = math.hypot(ddx, ddy)
+        if 2 <= dist <= 300:
+            dx.append(ddx)
+            dy.append(ddy)
+            d.append(dist)
+
+    if len(d) < 5:
         return 0.0
-    d.sort(reverse=True)
-    n = max(1, len(d) * 75 // 100)
-    return float(np.mean(d[:n]))
+
+    mx = float(np.median(dx))
+    my = float(np.median(dy))
+
+    consistent = [
+        dist
+        for dist, ddx, ddy in zip(d, dx, dy)
+        if abs(ddx - mx) < 5 and abs(ddy - my) < 5
+    ]
+
+    if len(consistent) < 5:
+        return 0.0
+
+    return float(np.median(consistent))
 
 def speed(px, gsd, dt):
     if dt <= 0:
+        log("Speed rejected - Invalid dt")
         return 0.0
     return (px * gsd / 1000.0) / dt
 
@@ -83,25 +137,34 @@ def filter_outliers(s):
     iqr = q3 - q1
     lo = q1 - 1.5 * iqr
     hi = q3 + 1.5 * iqr
+    removed = [x for x in s if not (lo <= x <= hi)]
+    for val in removed:
+        log(f"Speed removed as outlier {val}")
     return [x for x in s if lo <= x <= hi]
 
 pair_speeds = []
 
+# Process pairs
 for i in range(len(captured_images)):
     for j in range(i + 1, min(i + 3, len(captured_images))):
 
         if time() - start_time >= 585:
+            log(f"Pair skipped - Timeout reached")
             break
 
         a = captured_images[i]
         b = captured_images[j]
+        log(f"Pair started {a.name} - {b.name}")
 
         dt = time_diff(a, b)
         if dt is None or not (1.6 <= dt <= 5):
+            log("Pair skipped - Invalid dt")
             continue
 
         img1 = to_cv(a)
         img2 = to_cv(b)
+        if img1 is None or img2 is None:
+            continue
 
         kp1, kp2, d1, d2 = features(img1, img2)
         if d1 is None or d2 is None:
@@ -109,20 +172,38 @@ for i in range(len(captured_images)):
 
         m = matches(d1, d2)
         if len(m) < 5:
+            log("Pair rejected Insufficient matches")
             continue
 
         c1, c2 = coords(kp1, kp2, m)
         dist = top_distance(c1, c2)
         if dist == 0:
+            log("Speed rejected Invalid distance")
             continue
 
-        pair_speeds.append(speed(dist, gsd, dt))
+        v = speed(dist, gsd, dt)
+        pair_speeds.append(v)
+        log(f"Speed calculated {a.name} - {b.name} - {v:.4f}")
 
     if time() - start_time >= 585:
         break
 
+# Outlier handling
+log("Outlier removal started")
 final = filter_outliers(pair_speeds)
-mean_speed = float(np.mean(final)) if final else 0.0
+log(f"Speeds remaining {len(final)}")
 
-with open(BASE_DIR / "result.txt", "w") as f:
-    f.write(f"{mean_speed:.5g}")
+# Final result
+final_speed = float(np.median(final)) if final else 0.0
+log(f"Final speed {final_speed:.5g}")
+
+try:
+    with open(BASE_DIR / "result.txt", "w") as f:
+        f.write(f"{final_speed:.5g}")
+    log("Result file write success")
+except Exception:
+    log("Result file write failure")
+
+# Shutdown
+log("END")
+log(f"Total runtime {time() - start_time:.2f}s")
