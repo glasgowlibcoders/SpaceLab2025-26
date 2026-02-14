@@ -12,6 +12,7 @@ gsd = 148
 BASE_DIR = Path(__file__).resolve().parent
 LOG_FILE = BASE_DIR / "log.txt"
 LOG_FILE = "log.txt"
+PHOTOS_DIR = BASE_DIR / "photos"
 
 start_time = time()
 
@@ -28,6 +29,7 @@ def log(msg):
 
 log("START")
 
+PHOTOS_DIR.mkdir(parents=True, exist_ok=True)
 cam = Camera()
 captured_images = []
 img_number = 0
@@ -35,7 +37,7 @@ img_number = 0
 # Capture images
 while time() - start_time < 360:
     img_number += 1
-    path = BASE_DIR / f"image{img_number}.jpg"
+    path = PHOTOS_DIR / f"image{img_number:03}.jpg"
     try:
         cam.take_photo(path)
         captured_images.append(path)
@@ -205,6 +207,13 @@ log(f"Speeds remaining {len(final)}")
 # Final result
 final_speed = float(np.median(final)) if final else 0.0
 log(f"Final speed {final_speed:.5g}")
+
+SAVED_PHOTOS=sorted((PHOTOS_DIR.iterdir()))
+NUM_PHOTOS=len(SAVED_PHOTOS)
+NUM_DELETE=NUM_PHOTOS - 42
+if NUM_DELETE > 0
+    for x in range(NUM_DELETE):
+        SAVED_PHOTOS.pop()
 
 try:
     with open(BASE_DIR / "result.txt", "w") as f:
