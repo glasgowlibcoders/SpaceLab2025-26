@@ -21,7 +21,7 @@ def log(msg):
     elapsed_rounded = round(elapsed, 2)
     hours, remainder = divmod(elapsed_rounded, 3600)
     minutes, seconds = divmod(remainder, 60)
-    timestamp = f"{int(hours):02}:{int(minutes):02}:{seconds:05.2f}"
+    timestamp = f"{int(minutes):02}:{seconds:05.2f}"
 
     with open(LOG_FILE, "a") as f:
         f.write(f"{timestamp} | {msg}\n")
@@ -41,6 +41,7 @@ while time() - start_time < 360:
         captured_images.append(path)
         log(f"Image taken {img_number}")
         log(f"Image capture success {img_number}")
+        sleep(1)
     except Exception:
         log(f"Image capture failure {img_number}")
     sleep(2)
@@ -79,7 +80,7 @@ def features(a, b):
     orb = cv2.ORB_create(nfeatures=2000)
     kp1, d1 = orb.detectAndCompute(a, None)
     kp2, d2 = orb.detectAndCompute(b, None)
-    if d1 is None or d2 is None:
+    if d1 is None or d2 is None kp1 is None kp2 is None:
         log(f"Feature detection failed {a} or {b}")
     return kp1, kp2, d1, d2
 
@@ -175,7 +176,7 @@ for i in range(len(captured_images)):
             continue
 
         kp1, kp2, d1, d2 = features(img1, img2)
-        if d1 is None or d2 is None:
+        if d1 is None or d2 is None or kp1 is None or kp2 is None:
             continue
 
         m = matches(d1, d2)
