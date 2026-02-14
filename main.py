@@ -211,7 +211,7 @@ log(f"Final speed {final_speed:.5g}")
 SAVED_PHOTOS=sorted((PHOTOS_DIR.iterdir()))
 NUM_PHOTOS=len(SAVED_PHOTOS)
 NUM_DELETE=NUM_PHOTOS - 42
-if NUM_DELETE > 0
+if NUM_DELETE > 0:
     for x in range(NUM_DELETE):
         SAVED_PHOTOS.pop()
 
