@@ -80,7 +80,7 @@ def features(a, b):
     orb = cv2.ORB_create(nfeatures=2000)
     kp1, d1 = orb.detectAndCompute(a, None)
     kp2, d2 = orb.detectAndCompute(b, None)
-    if d1 is None or d2 is None kp1 is None kp2 is None:
+    if d1 is None or d2 is None or kp1 is None or kp2 is None:
         log(f"Feature detection failed {a} or {b}")
     return kp1, kp2, d1, d2
 
