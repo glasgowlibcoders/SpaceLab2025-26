@@ -1,0 +1,983 @@
+00:00.00 | START
+00:02.41 | Image taken 1
+00:02.41 | Image capture success 1
+00:07.10 | Image taken 2
+00:07.10 | Image capture success 2
+00:12.00 | Image taken 3
+00:12.00 | Image capture success 3
+00:16.69 | Image taken 4
+00:16.69 | Image capture success 4
+00:21.49 | Image taken 5
+00:21.49 | Image capture success 5
+00:26.24 | Image taken 6
+00:26.24 | Image capture success 6
+00:30.93 | Image taken 7
+00:30.93 | Image capture success 7
+00:35.84 | Image taken 8
+00:35.84 | Image capture success 8
+00:40.53 | Image taken 9
+00:40.54 | Image capture success 9
+00:45.45 | Image taken 10
+00:45.45 | Image capture success 10
+00:50.14 | Image taken 11
+00:50.14 | Image capture success 11
+00:54.94 | Image taken 12
+00:54.94 | Image capture success 12
+00:59.69 | Image taken 13
+00:59.69 | Image capture success 13
+01:04.39 | Image taken 14
+01:04.39 | Image capture success 14
+01:09.31 | Image taken 15
+01:09.31 | Image capture success 15
+01:13.99 | Image taken 16
+01:13.99 | Image capture success 16
+01:18.89 | Image taken 17
+01:18.89 | Image capture success 17
+01:23.57 | Image taken 18
+01:23.57 | Image capture success 18
+01:28.37 | Image taken 19
+01:28.37 | Image capture success 19
+01:33.11 | Image taken 20
+01:33.11 | Image capture success 20
+01:37.78 | Image taken 21
+01:37.78 | Image capture success 21
+01:42.71 | Image taken 22
+01:42.71 | Image capture success 22
+01:47.38 | Image taken 23
+01:47.38 | Image capture success 23
+01:52.27 | Image taken 24
+01:52.27 | Image capture success 24
+01:56.94 | Image taken 25
+01:56.94 | Image capture success 25
+02:01.84 | Image taken 26
+02:01.84 | Image capture success 26
+02:06.51 | Image taken 27
+02:06.51 | Image capture success 27
+02:11.41 | Image taken 28
+02:11.42 | Image capture success 28
+02:16.09 | Image taken 29
+02:16.09 | Image capture success 29
+02:20.98 | Image taken 30
+02:20.98 | Image capture success 30
+02:25.65 | Image taken 31
+02:25.65 | Image capture success 31
+02:30.56 | Image taken 32
+02:30.56 | Image capture success 32
+02:35.23 | Image taken 33
+02:35.23 | Image capture success 33
+02:40.13 | Image taken 34
+02:40.13 | Image capture success 34
+02:44.80 | Image taken 35
+02:44.80 | Image capture success 35
+02:49.70 | Image taken 36
+02:49.70 | Image capture success 36
+02:54.37 | Image taken 37
+02:54.37 | Image capture success 37
+02:59.04 | Image taken 38
+02:59.04 | Image capture success 38
+03:03.92 | Image taken 39
+03:03.92 | Image capture success 39
+03:08.60 | Image taken 40
+03:08.60 | Image capture success 40
+03:13.50 | Image taken 41
+03:13.50 | Image capture success 41
+03:18.24 | Image taken 42
+03:18.24 | Image capture success 42
+03:23.04 | Image taken 43
+03:23.04 | Image capture success 43
+03:27.79 | Image taken 44
+03:27.79 | Image capture success 44
+03:32.47 | Image taken 45
+03:32.47 | Image capture success 45
+03:37.28 | Image taken 46
+03:37.28 | Image capture success 46
+03:42.03 | Image taken 47
+03:42.03 | Image capture success 47
+03:46.72 | Image taken 48
+03:46.72 | Image capture success 48
+03:51.52 | Image taken 49
+03:51.52 | Image capture success 49
+03:56.29 | Image taken 50
+03:56.29 | Image capture success 50
+04:00.96 | Image taken 51
+04:00.96 | Image capture success 51
+04:05.89 | Image taken 52
+04:05.89 | Image capture success 52
+04:10.56 | Image taken 53
+04:10.56 | Image capture success 53
+04:15.42 | Image taken 54
+04:15.42 | Image capture success 54
+04:20.09 | Image taken 55
+04:20.09 | Image capture success 55
+04:25.01 | Image taken 56
+04:25.01 | Image capture success 56
+04:29.68 | Image taken 57
+04:29.68 | Image capture success 57
+04:34.59 | Image taken 58
+04:34.59 | Image capture success 58
+04:39.26 | Image taken 59
+04:39.26 | Image capture success 59
+04:44.16 | Image taken 60
+04:44.16 | Image capture success 60
+04:48.82 | Image taken 61
+04:48.82 | Image capture success 61
+04:53.70 | Image taken 62
+04:53.70 | Image capture success 62
+04:58.37 | Image taken 63
+04:58.37 | Image capture success 63
+05:03.27 | Image taken 64
+05:03.27 | Image capture success 64
+05:07.94 | Image taken 65
+05:07.94 | Image capture success 65
+05:12.79 | Image taken 66
+05:12.79 | Image capture success 66
+05:17.45 | Image taken 67
+05:17.46 | Image capture success 67
+05:22.35 | Image taken 68
+05:22.35 | Image capture success 68
+05:27.01 | Image taken 69
+05:27.01 | Image capture success 69
+05:31.89 | Image taken 70
+05:31.89 | Image capture success 70
+05:36.55 | Image taken 71
+05:36.55 | Image capture success 71
+05:41.43 | Image taken 72
+05:41.43 | Image capture success 72
+05:46.10 | Image taken 73
+05:46.10 | Image capture success 73
+05:50.97 | Image taken 74
+05:50.97 | Image capture success 74
+05:55.64 | Image taken 75
+05:55.64 | Image capture success 75
+06:00.31 | Image taken 76
+06:00.31 | Image capture success 76
+06:03.31 | Pair started image001.jpg - image002.jpg
+06:03.33 | EXIF time read image001.jpg
+06:03.34 | EXIF time read image002.jpg
+06:03.48 | Image load success image001.jpg
+06:03.59 | Image load success image002.jpg
+06:04.82 | Match count 493
+06:04.82 | Speed calculated image001.jpg - image002.jpg - 6.7141
+06:04.82 | Pair started image001.jpg - image003.jpg
+06:04.82 | EXIF time read image001.jpg
+06:04.83 | EXIF time read image003.jpg
+06:04.83 | Pair skipped - Invalid dt
+06:04.83 | Pair started image002.jpg - image003.jpg
+06:04.83 | EXIF time read image002.jpg
+06:04.84 | EXIF time read image003.jpg
+06:04.95 | Image load success image002.jpg
+06:05.06 | Image load success image003.jpg
+06:06.28 | Match count 490
+06:06.28 | Speed calculated image002.jpg - image003.jpg - 7.6908
+06:06.28 | Pair started image002.jpg - image004.jpg
+06:06.29 | EXIF time read image002.jpg
+06:06.29 | EXIF time read image004.jpg
+06:06.29 | Pair skipped - Invalid dt
+06:06.29 | Pair started image003.jpg - image004.jpg
+06:06.30 | EXIF time read image003.jpg
+06:06.30 | EXIF time read image004.jpg
+06:06.40 | Image load success image003.jpg
+06:06.50 | Image load success image004.jpg
+06:07.71 | Match count 710
+06:07.71 | Speed calculated image003.jpg - image004.jpg - 9.4140
+06:07.72 | Pair started image003.jpg - image005.jpg
+06:07.73 | EXIF time read image003.jpg
+06:07.73 | EXIF time read image005.jpg
+06:07.73 | Pair skipped - Invalid dt
+06:07.73 | Pair started image004.jpg - image005.jpg
+06:07.74 | EXIF time read image004.jpg
+06:07.74 | EXIF time read image005.jpg
+06:07.84 | Image load success image004.jpg
+06:07.94 | Image load success image005.jpg
+06:09.15 | Match count 800
+06:09.15 | Speed calculated image004.jpg - image005.jpg - 7.4693
+06:09.15 | Pair started image004.jpg - image006.jpg
+06:09.16 | EXIF time read image004.jpg
+06:09.16 | EXIF time read image006.jpg
+06:09.16 | Pair skipped - Invalid dt
+06:09.16 | Pair started image005.jpg - image006.jpg
+06:09.17 | EXIF time read image005.jpg
+06:09.17 | EXIF time read image006.jpg
+06:09.27 | Image load success image005.jpg
+06:09.36 | Image load success image006.jpg
+06:10.63 | Match count 760
+06:10.63 | Speed calculated image005.jpg - image006.jpg - 7.2046
+06:10.63 | Pair started image005.jpg - image007.jpg
+06:10.63 | EXIF time read image005.jpg
+06:10.64 | EXIF time read image007.jpg
+06:10.64 | Pair skipped - Invalid dt
+06:10.64 | Pair started image006.jpg - image007.jpg
+06:10.64 | EXIF time read image006.jpg
+06:10.65 | EXIF time read image007.jpg
+06:10.74 | Image load success image006.jpg
+06:10.84 | Image load success image007.jpg
+06:12.17 | Match count 848
+06:12.17 | Speed calculated image006.jpg - image007.jpg - 7.2038
+06:12.17 | Pair started image006.jpg - image008.jpg
+06:12.17 | EXIF time read image006.jpg
+06:12.18 | EXIF time read image008.jpg
+06:12.18 | Pair skipped - Invalid dt
+06:12.18 | Pair started image007.jpg - image008.jpg
+06:12.18 | EXIF time read image007.jpg
+06:12.19 | EXIF time read image008.jpg
+06:12.30 | Image load success image007.jpg
+06:12.40 | Image load success image008.jpg
+06:13.72 | Match count 880
+06:13.72 | Speed calculated image007.jpg - image008.jpg - 7.2130
+06:13.72 | Pair started image007.jpg - image009.jpg
+06:13.73 | EXIF time read image007.jpg
+06:13.73 | EXIF time read image009.jpg
+06:13.73 | Pair skipped - Invalid dt
+06:13.73 | Pair started image008.jpg - image009.jpg
+06:13.74 | EXIF time read image008.jpg
+06:13.74 | EXIF time read image009.jpg
+06:13.84 | Image load success image008.jpg
+06:13.94 | Image load success image009.jpg
+06:15.23 | Match count 861
+06:15.23 | Speed calculated image008.jpg - image009.jpg - 8.8434
+06:15.23 | Pair started image008.jpg - image010.jpg
+06:15.24 | EXIF time read image008.jpg
+06:15.25 | EXIF time read image010.jpg
+06:15.25 | Pair skipped - Invalid dt
+06:15.25 | Pair started image009.jpg - image010.jpg
+06:15.25 | EXIF time read image009.jpg
+06:15.26 | EXIF time read image010.jpg
+06:15.36 | Image load success image009.jpg
+06:15.45 | Image load success image010.jpg
+06:16.75 | Match count 857
+06:16.75 | Speed calculated image009.jpg - image010.jpg - 7.0047
+06:16.75 | Pair started image009.jpg - image011.jpg
+06:16.76 | EXIF time read image009.jpg
+06:16.76 | EXIF time read image011.jpg
+06:16.76 | Pair skipped - Invalid dt
+06:16.76 | Pair started image010.jpg - image011.jpg
+06:16.77 | EXIF time read image010.jpg
+06:16.77 | EXIF time read image011.jpg
+06:16.87 | Image load success image010.jpg
+06:16.97 | Image load success image011.jpg
+06:18.28 | Match count 871
+06:18.29 | Speed calculated image010.jpg - image011.jpg - 6.8548
+06:18.29 | Pair started image010.jpg - image012.jpg
+06:18.29 | EXIF time read image010.jpg
+06:18.29 | EXIF time read image012.jpg
+06:18.29 | Pair skipped - Invalid dt
+06:18.29 | Pair started image011.jpg - image012.jpg
+06:18.30 | EXIF time read image011.jpg
+06:18.30 | EXIF time read image012.jpg
+06:18.40 | Image load success image011.jpg
+06:18.49 | Image load success image012.jpg
+06:19.78 | Match count 810
+06:19.78 | Speed calculated image011.jpg - image012.jpg - 6.7862
+06:19.78 | Pair started image011.jpg - image013.jpg
+06:19.79 | EXIF time read image011.jpg
+06:19.79 | EXIF time read image013.jpg
+06:19.79 | Pair skipped - Invalid dt
+06:19.79 | Pair started image012.jpg - image013.jpg
+06:19.80 | EXIF time read image012.jpg
+06:19.80 | EXIF time read image013.jpg
+06:19.90 | Image load success image012.jpg
+06:20.00 | Image load success image013.jpg
+06:21.29 | Match count 865
+06:21.29 | Speed calculated image012.jpg - image013.jpg - 8.3758
+06:21.29 | Pair started image012.jpg - image014.jpg
+06:21.30 | EXIF time read image012.jpg
+06:21.30 | EXIF time read image014.jpg
+06:21.30 | Pair skipped - Invalid dt
+06:21.30 | Pair started image013.jpg - image014.jpg
+06:21.30 | EXIF time read image013.jpg
+06:21.31 | EXIF time read image014.jpg
+06:21.41 | Image load success image013.jpg
+06:21.51 | Image load success image014.jpg
+06:22.80 | Match count 910
+06:22.80 | Speed calculated image013.jpg - image014.jpg - 6.8174
+06:22.80 | Pair started image013.jpg - image015.jpg
+06:22.80 | EXIF time read image013.jpg
+06:22.81 | EXIF time read image015.jpg
+06:22.81 | Pair skipped - Invalid dt
+06:22.81 | Pair started image014.jpg - image015.jpg
+06:22.81 | EXIF time read image014.jpg
+06:22.82 | EXIF time read image015.jpg
+06:22.91 | Image load success image014.jpg
+06:23.01 | Image load success image015.jpg
+06:24.27 | Match count 913
+06:24.27 | Speed calculated image014.jpg - image015.jpg - 7.1756
+06:24.27 | Pair started image014.jpg - image016.jpg
+06:24.28 | EXIF time read image014.jpg
+06:24.28 | EXIF time read image016.jpg
+06:24.28 | Pair skipped - Invalid dt
+06:24.28 | Pair started image015.jpg - image016.jpg
+06:24.29 | EXIF time read image015.jpg
+06:24.29 | EXIF time read image016.jpg
+06:24.39 | Image load success image015.jpg
+06:24.48 | Image load success image016.jpg
+06:25.73 | Match count 830
+06:25.74 | Speed calculated image015.jpg - image016.jpg - 7.0039
+06:25.74 | Pair started image015.jpg - image017.jpg
+06:25.74 | EXIF time read image015.jpg
+06:25.75 | EXIF time read image017.jpg
+06:25.75 | Pair skipped - Invalid dt
+06:25.75 | Pair started image016.jpg - image017.jpg
+06:25.75 | EXIF time read image016.jpg
+06:25.76 | EXIF time read image017.jpg
+06:25.85 | Image load success image016.jpg
+06:25.95 | Image load success image017.jpg
+06:27.18 | Match count 821
+06:27.18 | Speed calculated image016.jpg - image017.jpg - 6.8991
+06:27.19 | Pair started image016.jpg - image018.jpg
+06:27.19 | EXIF time read image016.jpg
+06:27.19 | EXIF time read image018.jpg
+06:27.19 | Pair skipped - Invalid dt
+06:27.19 | Pair started image017.jpg - image018.jpg
+06:27.20 | EXIF time read image017.jpg
+06:27.20 | EXIF time read image018.jpg
+06:27.30 | Image load success image017.jpg
+06:27.40 | Image load success image018.jpg
+06:28.63 | Match count 791
+06:28.63 | Speed calculated image017.jpg - image018.jpg - 8.3863
+06:28.63 | Pair started image017.jpg - image019.jpg
+06:28.63 | EXIF time read image017.jpg
+06:28.64 | EXIF time read image019.jpg
+06:28.64 | Pair skipped - Invalid dt
+06:28.64 | Pair started image018.jpg - image019.jpg
+06:28.64 | EXIF time read image018.jpg
+06:28.65 | EXIF time read image019.jpg
+06:28.74 | Image load success image018.jpg
+06:28.84 | Image load success image019.jpg
+06:30.07 | Match count 852
+06:30.08 | Speed calculated image018.jpg - image019.jpg - 6.6342
+06:30.08 | Pair started image018.jpg - image020.jpg
+06:30.08 | EXIF time read image018.jpg
+06:30.08 | EXIF time read image020.jpg
+06:30.08 | Pair skipped - Invalid dt
+06:30.08 | Pair started image019.jpg - image020.jpg
+06:30.09 | EXIF time read image019.jpg
+06:30.09 | EXIF time read image020.jpg
+06:30.19 | Image load success image019.jpg
+06:30.28 | Image load success image020.jpg
+06:31.50 | Match count 886
+06:31.51 | Speed calculated image019.jpg - image020.jpg - 6.3148
+06:31.51 | Pair started image019.jpg - image021.jpg
+06:31.51 | EXIF time read image019.jpg
+06:31.52 | EXIF time read image021.jpg
+06:31.52 | Pair skipped - Invalid dt
+06:31.52 | Pair started image020.jpg - image021.jpg
+06:31.52 | EXIF time read image020.jpg
+06:31.52 | EXIF time read image021.jpg
+06:31.62 | Image load success image020.jpg
+06:31.72 | Image load success image021.jpg
+06:32.93 | Match count 779
+06:32.93 | Speed calculated image020.jpg - image021.jpg - 6.2714
+06:32.93 | Pair started image020.jpg - image022.jpg
+06:32.94 | EXIF time read image020.jpg
+06:32.94 | EXIF time read image022.jpg
+06:32.94 | Pair skipped - Invalid dt
+06:32.94 | Pair started image021.jpg - image022.jpg
+06:32.94 | EXIF time read image021.jpg
+06:32.95 | EXIF time read image022.jpg
+06:33.04 | Image load success image021.jpg
+06:33.14 | Image load success image022.jpg
+06:34.34 | Match count 801
+06:34.35 | Speed calculated image021.jpg - image022.jpg - 6.2438
+06:34.35 | Pair started image021.jpg - image023.jpg
+06:34.35 | EXIF time read image021.jpg
+06:34.36 | EXIF time read image023.jpg
+06:34.36 | Pair skipped - Invalid dt
+06:34.36 | Pair started image022.jpg - image023.jpg
+06:34.36 | EXIF time read image022.jpg
+06:34.37 | EXIF time read image023.jpg
+06:34.46 | Image load success image022.jpg
+06:34.55 | Image load success image023.jpg
+06:35.74 | Match count 750
+06:35.74 | Speed calculated image022.jpg - image023.jpg - 7.5755
+06:35.74 | Pair started image022.jpg - image024.jpg
+06:35.74 | EXIF time read image022.jpg
+06:35.75 | EXIF time read image024.jpg
+06:35.75 | Pair skipped - Invalid dt
+06:35.75 | Pair started image023.jpg - image024.jpg
+06:35.75 | EXIF time read image023.jpg
+06:35.76 | EXIF time read image024.jpg
+06:35.85 | Image load success image023.jpg
+06:35.94 | Image load success image024.jpg
+06:37.11 | Match count 680
+06:37.12 | Speed calculated image023.jpg - image024.jpg - 5.9546
+06:37.12 | Pair started image023.jpg - image025.jpg
+06:37.12 | EXIF time read image023.jpg
+06:37.13 | EXIF time read image025.jpg
+06:37.13 | Pair skipped - Invalid dt
+06:37.13 | Pair started image024.jpg - image025.jpg
+06:37.13 | EXIF time read image024.jpg
+06:37.13 | EXIF time read image025.jpg
+06:37.23 | Image load success image024.jpg
+06:37.32 | Image load success image025.jpg
+06:38.47 | Match count 476
+06:38.48 | Speed calculated image024.jpg - image025.jpg - 6.0972
+06:38.48 | Pair started image024.jpg - image026.jpg
+06:38.48 | EXIF time read image024.jpg
+06:38.49 | EXIF time read image026.jpg
+06:38.49 | Pair skipped - Invalid dt
+06:38.49 | Pair started image025.jpg - image026.jpg
+06:38.49 | EXIF time read image025.jpg
+06:38.49 | EXIF time read image026.jpg
+06:38.59 | Image load success image025.jpg
+06:38.68 | Image load success image026.jpg
+06:39.82 | Match count 468
+06:39.82 | Speed calculated image025.jpg - image026.jpg - 6.5147
+06:39.82 | Pair started image025.jpg - image027.jpg
+06:39.83 | EXIF time read image025.jpg
+06:39.83 | EXIF time read image027.jpg
+06:39.83 | Pair skipped - Invalid dt
+06:39.83 | Pair started image026.jpg - image027.jpg
+06:39.84 | EXIF time read image026.jpg
+06:39.84 | EXIF time read image027.jpg
+06:39.93 | Image load success image026.jpg
+06:40.02 | Image load success image027.jpg
+06:41.16 | Match count 475
+06:41.16 | Speed calculated image026.jpg - image027.jpg - 8.5827
+06:41.16 | Pair started image026.jpg - image028.jpg
+06:41.16 | EXIF time read image026.jpg
+06:41.17 | EXIF time read image028.jpg
+06:41.17 | Pair skipped - Invalid dt
+06:41.17 | Pair started image027.jpg - image028.jpg
+06:41.17 | EXIF time read image027.jpg
+06:41.18 | EXIF time read image028.jpg
+06:41.27 | Image load success image027.jpg
+06:41.36 | Image load success image028.jpg
+06:42.49 | Match count 416
+06:42.49 | Speed calculated image027.jpg - image028.jpg - 6.7639
+06:42.49 | Pair started image027.jpg - image029.jpg
+06:42.49 | EXIF time read image027.jpg
+06:42.50 | EXIF time read image029.jpg
+06:42.50 | Pair skipped - Invalid dt
+06:42.50 | Pair started image028.jpg - image029.jpg
+06:42.50 | EXIF time read image028.jpg
+06:42.51 | EXIF time read image029.jpg
+06:42.60 | Image load success image028.jpg
+06:42.69 | Image load success image029.jpg
+06:43.81 | Match count 410
+06:43.81 | Speed calculated image028.jpg - image029.jpg - 6.5879
+06:43.81 | Pair started image028.jpg - image030.jpg
+06:43.82 | EXIF time read image028.jpg
+06:43.82 | EXIF time read image030.jpg
+06:43.82 | Pair skipped - Invalid dt
+06:43.82 | Pair started image029.jpg - image030.jpg
+06:43.83 | EXIF time read image029.jpg
+06:43.83 | EXIF time read image030.jpg
+06:43.92 | Image load success image029.jpg
+06:44.01 | Image load success image030.jpg
+06:45.13 | Match count 314
+06:45.13 | Speed calculated image029.jpg - image030.jpg - 6.6383
+06:45.13 | Pair started image029.jpg - image031.jpg
+06:45.13 | EXIF time read image029.jpg
+06:45.14 | EXIF time read image031.jpg
+06:45.14 | Pair skipped - Invalid dt
+06:45.14 | Pair started image030.jpg - image031.jpg
+06:45.14 | EXIF time read image030.jpg
+06:45.15 | EXIF time read image031.jpg
+06:45.24 | Image load success image030.jpg
+06:45.32 | Image load success image031.jpg
+06:46.43 | Match count 241
+06:46.43 | Speed calculated image030.jpg - image031.jpg - 8.2384
+06:46.43 | Pair started image030.jpg - image032.jpg
+06:46.44 | EXIF time read image030.jpg
+06:46.44 | EXIF time read image032.jpg
+06:46.44 | Pair skipped - Invalid dt
+06:46.44 | Pair started image031.jpg - image032.jpg
+06:46.45 | EXIF time read image031.jpg
+06:46.45 | EXIF time read image032.jpg
+06:46.54 | Image load success image031.jpg
+06:46.63 | Image load success image032.jpg
+06:47.73 | Match count 196
+06:47.73 | Speed calculated image031.jpg - image032.jpg - 7.4433
+06:47.73 | Pair started image031.jpg - image033.jpg
+06:47.73 | EXIF time read image031.jpg
+06:47.74 | EXIF time read image033.jpg
+06:47.74 | Pair skipped - Invalid dt
+06:47.74 | Pair started image032.jpg - image033.jpg
+06:47.74 | EXIF time read image032.jpg
+06:47.74 | EXIF time read image033.jpg
+06:47.83 | Image load success image032.jpg
+06:47.92 | Image load success image033.jpg
+06:49.02 | Match count 197
+06:49.02 | Speed calculated image032.jpg - image033.jpg - 7.3835
+06:49.02 | Pair started image032.jpg - image034.jpg
+06:49.02 | EXIF time read image032.jpg
+06:49.03 | EXIF time read image034.jpg
+06:49.03 | Pair skipped - Invalid dt
+06:49.03 | Pair started image033.jpg - image034.jpg
+06:49.03 | EXIF time read image033.jpg
+06:49.04 | EXIF time read image034.jpg
+06:49.13 | Image load success image033.jpg
+06:49.22 | Image load success image034.jpg
+06:50.32 | Match count 280
+06:50.32 | Speed calculated image033.jpg - image034.jpg - 7.4638
+06:50.32 | Pair started image033.jpg - image035.jpg
+06:50.32 | EXIF time read image033.jpg
+06:50.33 | EXIF time read image035.jpg
+06:50.33 | Pair skipped - Invalid dt
+06:50.33 | Pair started image034.jpg - image035.jpg
+06:50.33 | EXIF time read image034.jpg
+06:50.33 | EXIF time read image035.jpg
+06:50.42 | Image load success image034.jpg
+06:50.51 | Image load success image035.jpg
+06:51.61 | Match count 298
+06:51.61 | Speed calculated image034.jpg - image035.jpg - 7.3191
+06:51.61 | Pair started image034.jpg - image036.jpg
+06:51.61 | EXIF time read image034.jpg
+06:51.62 | EXIF time read image036.jpg
+06:51.62 | Pair skipped - Invalid dt
+06:51.62 | Pair started image035.jpg - image036.jpg
+06:51.62 | EXIF time read image035.jpg
+06:51.62 | EXIF time read image036.jpg
+06:51.71 | Image load success image035.jpg
+06:51.80 | Image load success image036.jpg
+06:52.90 | Match count 286
+06:52.90 | Speed calculated image035.jpg - image036.jpg - 8.9796
+06:52.90 | Pair started image035.jpg - image037.jpg
+06:52.91 | EXIF time read image035.jpg
+06:52.91 | EXIF time read image037.jpg
+06:52.91 | Pair skipped - Invalid dt
+06:52.91 | Pair started image036.jpg - image037.jpg
+06:52.91 | EXIF time read image036.jpg
+06:52.92 | EXIF time read image037.jpg
+06:53.01 | Image load success image036.jpg
+06:53.10 | Image load success image037.jpg
+06:54.20 | Match count 312
+06:54.20 | Speed calculated image036.jpg - image037.jpg - 7.0030
+06:54.20 | Pair started image036.jpg - image038.jpg
+06:54.20 | EXIF time read image036.jpg
+06:54.21 | EXIF time read image038.jpg
+06:54.21 | Pair skipped - Invalid dt
+06:54.21 | Pair started image037.jpg - image038.jpg
+06:54.21 | EXIF time read image037.jpg
+06:54.21 | EXIF time read image038.jpg
+06:54.30 | Image load success image037.jpg
+06:54.39 | Image load success image038.jpg
+06:55.49 | Match count 312
+06:55.50 | Speed calculated image037.jpg - image038.jpg - 6.7192
+06:55.50 | Pair started image037.jpg - image039.jpg
+06:55.50 | EXIF time read image037.jpg
+06:55.50 | EXIF time read image039.jpg
+06:55.50 | Pair skipped - Invalid dt
+06:55.50 | Pair started image038.jpg - image039.jpg
+06:55.51 | EXIF time read image038.jpg
+06:55.51 | EXIF time read image039.jpg
+06:55.60 | Image load success image038.jpg
+06:55.69 | Image load success image039.jpg
+06:56.81 | Match count 223
+06:56.81 | Speed calculated image038.jpg - image039.jpg - 6.7913
+06:56.81 | Pair started image038.jpg - image040.jpg
+06:56.81 | EXIF time read image038.jpg
+06:56.82 | EXIF time read image040.jpg
+06:56.82 | Pair skipped - Invalid dt
+06:56.82 | Pair started image039.jpg - image040.jpg
+06:56.82 | EXIF time read image039.jpg
+06:56.82 | EXIF time read image040.jpg
+06:56.91 | Image load success image039.jpg
+06:57.00 | Image load success image040.jpg
+06:58.13 | Match count 256
+06:58.13 | Speed calculated image039.jpg - image040.jpg - 9.5904
+06:58.13 | Pair started image039.jpg - image041.jpg
+06:58.14 | EXIF time read image039.jpg
+06:58.14 | EXIF time read image041.jpg
+06:58.14 | Pair skipped - Invalid dt
+06:58.14 | Pair started image040.jpg - image041.jpg
+06:58.15 | EXIF time read image040.jpg
+06:58.15 | EXIF time read image041.jpg
+06:58.24 | Image load success image040.jpg
+06:58.32 | Image load success image041.jpg
+06:59.47 | Match count 768
+06:59.48 | Speed calculated image040.jpg - image041.jpg - 7.6119
+06:59.48 | Pair started image040.jpg - image042.jpg
+06:59.48 | EXIF time read image040.jpg
+06:59.49 | EXIF time read image042.jpg
+06:59.49 | Pair skipped - Invalid dt
+06:59.49 | Pair started image041.jpg - image042.jpg
+06:59.49 | EXIF time read image041.jpg
+06:59.49 | EXIF time read image042.jpg
+06:59.58 | Image load success image041.jpg
+06:59.67 | Image load success image042.jpg
+07:00.82 | Match count 766
+07:00.82 | Speed calculated image041.jpg - image042.jpg - 7.4167
+07:00.82 | Pair started image041.jpg - image043.jpg
+07:00.83 | EXIF time read image041.jpg
+07:00.83 | EXIF time read image043.jpg
+07:00.83 | Pair skipped - Invalid dt
+07:00.83 | Pair started image042.jpg - image043.jpg
+07:00.83 | EXIF time read image042.jpg
+07:00.84 | EXIF time read image043.jpg
+07:00.93 | Image load success image042.jpg
+07:01.01 | Image load success image043.jpg
+07:02.16 | Match count 746
+07:02.17 | Speed calculated image042.jpg - image043.jpg - 7.3665
+07:02.17 | Pair started image042.jpg - image044.jpg
+07:02.17 | EXIF time read image042.jpg
+07:02.17 | EXIF time read image044.jpg
+07:02.17 | Pair skipped - Invalid dt
+07:02.17 | Pair started image043.jpg - image044.jpg
+07:02.18 | EXIF time read image043.jpg
+07:02.18 | EXIF time read image044.jpg
+07:02.27 | Image load success image043.jpg
+07:02.36 | Image load success image044.jpg
+07:03.51 | Match count 644
+07:03.52 | Speed calculated image043.jpg - image044.jpg - 6.9727
+07:03.52 | Pair started image043.jpg - image045.jpg
+07:03.52 | EXIF time read image043.jpg
+07:03.52 | EXIF time read image045.jpg
+07:03.52 | Pair skipped - Invalid dt
+07:03.52 | Pair started image044.jpg - image045.jpg
+07:03.53 | EXIF time read image044.jpg
+07:03.53 | EXIF time read image045.jpg
+07:03.62 | Image load success image044.jpg
+07:03.71 | Image load success image045.jpg
+07:04.89 | Match count 672
+07:04.90 | Speed calculated image044.jpg - image045.jpg - 8.6805
+07:04.90 | Pair started image044.jpg - image046.jpg
+07:04.90 | EXIF time read image044.jpg
+07:04.90 | EXIF time read image046.jpg
+07:04.90 | Pair skipped - Invalid dt
+07:04.90 | Pair started image045.jpg - image046.jpg
+07:04.91 | EXIF time read image045.jpg
+07:04.91 | EXIF time read image046.jpg
+07:05.00 | Image load success image045.jpg
+07:05.09 | Image load success image046.jpg
+07:06.28 | Match count 637
+07:06.28 | Speed calculated image045.jpg - image046.jpg - 7.7031
+07:06.28 | Pair started image045.jpg - image047.jpg
+07:06.28 | EXIF time read image045.jpg
+07:06.29 | EXIF time read image047.jpg
+07:06.29 | Pair skipped - Invalid dt
+07:06.29 | Pair started image046.jpg - image047.jpg
+07:06.29 | EXIF time read image046.jpg
+07:06.29 | EXIF time read image047.jpg
+07:06.38 | Image load success image046.jpg
+07:06.47 | Image load success image047.jpg
+07:07.67 | Match count 594
+07:07.67 | Speed calculated image046.jpg - image047.jpg - 7.4400
+07:07.67 | Pair started image046.jpg - image048.jpg
+07:07.68 | EXIF time read image046.jpg
+07:07.68 | EXIF time read image048.jpg
+07:07.68 | Pair skipped - Invalid dt
+07:07.68 | Pair started image047.jpg - image048.jpg
+07:07.68 | EXIF time read image047.jpg
+07:07.69 | EXIF time read image048.jpg
+07:07.78 | Image load success image047.jpg
+07:07.87 | Image load success image048.jpg
+07:09.07 | Match count 861
+07:09.08 | Speed calculated image047.jpg - image048.jpg - 7.4888
+07:09.08 | Pair started image047.jpg - image049.jpg
+07:09.08 | EXIF time read image047.jpg
+07:09.08 | EXIF time read image049.jpg
+07:09.08 | Pair skipped - Invalid dt
+07:09.08 | Pair started image048.jpg - image049.jpg
+07:09.09 | EXIF time read image048.jpg
+07:09.09 | EXIF time read image049.jpg
+07:09.18 | Image load success image048.jpg
+07:09.27 | Image load success image049.jpg
+07:10.47 | Match count 809
+07:10.47 | Speed calculated image048.jpg - image049.jpg - 9.2804
+07:10.48 | Pair started image048.jpg - image050.jpg
+07:10.48 | EXIF time read image048.jpg
+07:10.48 | EXIF time read image050.jpg
+07:10.48 | Pair skipped - Invalid dt
+07:10.48 | Pair started image049.jpg - image050.jpg
+07:10.49 | EXIF time read image049.jpg
+07:10.49 | EXIF time read image050.jpg
+07:10.58 | Image load success image049.jpg
+07:10.67 | Image load success image050.jpg
+07:11.86 | Match count 790
+07:11.87 | Speed calculated image049.jpg - image050.jpg - 7.1041
+07:11.87 | Pair started image049.jpg - image051.jpg
+07:11.87 | EXIF time read image049.jpg
+07:11.88 | EXIF time read image051.jpg
+07:11.88 | Pair skipped - Invalid dt
+07:11.88 | Pair started image050.jpg - image051.jpg
+07:11.88 | EXIF time read image050.jpg
+07:11.88 | EXIF time read image051.jpg
+07:11.98 | Image load success image050.jpg
+07:12.07 | Image load success image051.jpg
+07:13.26 | Match count 808
+07:13.26 | Speed calculated image050.jpg - image051.jpg - 7.0714
+07:13.26 | Pair started image050.jpg - image052.jpg
+07:13.27 | EXIF time read image050.jpg
+07:13.27 | EXIF time read image052.jpg
+07:13.27 | Pair skipped - Invalid dt
+07:13.27 | Pair started image051.jpg - image052.jpg
+07:13.27 | EXIF time read image051.jpg
+07:13.28 | EXIF time read image052.jpg
+07:13.37 | Image load success image051.jpg
+07:13.47 | Image load success image052.jpg
+07:14.65 | Match count 754
+07:14.66 | Speed calculated image051.jpg - image052.jpg - 6.9975
+07:14.66 | Pair started image051.jpg - image053.jpg
+07:14.66 | EXIF time read image051.jpg
+07:14.67 | EXIF time read image053.jpg
+07:14.67 | Pair skipped - Invalid dt
+07:14.67 | Pair started image052.jpg - image053.jpg
+07:14.67 | EXIF time read image052.jpg
+07:14.67 | EXIF time read image053.jpg
+07:14.76 | Image load success image052.jpg
+07:14.86 | Image load success image053.jpg
+07:16.03 | Match count 697
+07:16.03 | Speed calculated image052.jpg - image053.jpg - 8.5706
+07:16.03 | Pair started image052.jpg - image054.jpg
+07:16.04 | EXIF time read image052.jpg
+07:16.04 | EXIF time read image054.jpg
+07:16.04 | Pair skipped - Invalid dt
+07:16.04 | Pair started image053.jpg - image054.jpg
+07:16.04 | EXIF time read image053.jpg
+07:16.05 | EXIF time read image054.jpg
+07:16.14 | Image load success image053.jpg
+07:16.23 | Image load success image054.jpg
+07:17.39 | Match count 725
+07:17.40 | Speed calculated image053.jpg - image054.jpg - 6.6914
+07:17.40 | Pair started image053.jpg - image055.jpg
+07:17.40 | EXIF time read image053.jpg
+07:17.40 | EXIF time read image055.jpg
+07:17.40 | Pair skipped - Invalid dt
+07:17.40 | Pair started image054.jpg - image055.jpg
+07:17.41 | EXIF time read image054.jpg
+07:17.41 | EXIF time read image055.jpg
+07:17.50 | Image load success image054.jpg
+07:17.59 | Image load success image055.jpg
+07:18.77 | Match count 643
+07:18.77 | Speed calculated image054.jpg - image055.jpg - 6.4967
+07:18.77 | Pair started image054.jpg - image056.jpg
+07:18.77 | EXIF time read image054.jpg
+07:18.78 | EXIF time read image056.jpg
+07:18.78 | Pair skipped - Invalid dt
+07:18.78 | Pair started image055.jpg - image056.jpg
+07:18.78 | EXIF time read image055.jpg
+07:18.78 | EXIF time read image056.jpg
+07:18.88 | Image load success image055.jpg
+07:18.97 | Image load success image056.jpg
+07:20.16 | Match count 738
+07:20.16 | Speed calculated image055.jpg - image056.jpg - 7.5125
+07:20.16 | Pair started image055.jpg - image057.jpg
+07:20.16 | EXIF time read image055.jpg
+07:20.17 | EXIF time read image057.jpg
+07:20.17 | Pair skipped - Invalid dt
+07:20.17 | Pair started image056.jpg - image057.jpg
+07:20.17 | EXIF time read image056.jpg
+07:20.18 | EXIF time read image057.jpg
+07:20.26 | Image load success image056.jpg
+07:20.35 | Image load success image057.jpg
+07:21.55 | Match count 918
+07:21.55 | Speed calculated image056.jpg - image057.jpg - 9.2072
+07:21.55 | Pair started image056.jpg - image058.jpg
+07:21.55 | EXIF time read image056.jpg
+07:21.56 | EXIF time read image058.jpg
+07:21.56 | Pair skipped - Invalid dt
+07:21.56 | Pair started image057.jpg - image058.jpg
+07:21.56 | EXIF time read image057.jpg
+07:21.57 | EXIF time read image058.jpg
+07:21.65 | Image load success image057.jpg
+07:21.74 | Image load success image058.jpg
+07:22.94 | Match count 851
+07:22.94 | Speed calculated image057.jpg - image058.jpg - 7.3145
+07:22.94 | Pair started image057.jpg - image059.jpg
+07:22.95 | EXIF time read image057.jpg
+07:22.95 | EXIF time read image059.jpg
+07:22.95 | Pair skipped - Invalid dt
+07:22.95 | Pair started image058.jpg - image059.jpg
+07:22.95 | EXIF time read image058.jpg
+07:22.96 | EXIF time read image059.jpg
+07:23.04 | Image load success image058.jpg
+07:23.13 | Image load success image059.jpg
+07:24.33 | Match count 903
+07:24.33 | Speed calculated image058.jpg - image059.jpg - 7.0755
+07:24.33 | Pair started image058.jpg - image060.jpg
+07:24.34 | EXIF time read image058.jpg
+07:24.34 | EXIF time read image060.jpg
+07:24.34 | Pair skipped - Invalid dt
+07:24.34 | Pair started image059.jpg - image060.jpg
+07:24.35 | EXIF time read image059.jpg
+07:24.35 | EXIF time read image060.jpg
+07:24.44 | Image load success image059.jpg
+07:24.52 | Image load success image060.jpg
+07:25.71 | Match count 893
+07:25.71 | Speed calculated image059.jpg - image060.jpg - 7.0074
+07:25.71 | Pair started image059.jpg - image061.jpg
+07:25.72 | EXIF time read image059.jpg
+07:25.72 | EXIF time read image061.jpg
+07:25.72 | Pair skipped - Invalid dt
+07:25.72 | Pair started image060.jpg - image061.jpg
+07:25.72 | EXIF time read image060.jpg
+07:25.73 | EXIF time read image061.jpg
+07:25.81 | Image load success image060.jpg
+07:25.90 | Image load success image061.jpg
+07:27.08 | Match count 939
+07:27.08 | Speed calculated image060.jpg - image061.jpg - 6.8502
+07:27.08 | Pair started image060.jpg - image062.jpg
+07:27.09 | EXIF time read image060.jpg
+07:27.09 | EXIF time read image062.jpg
+07:27.09 | Pair skipped - Invalid dt
+07:27.09 | Pair started image061.jpg - image062.jpg
+07:27.09 | EXIF time read image061.jpg
+07:27.10 | EXIF time read image062.jpg
+07:27.18 | Image load success image061.jpg
+07:27.26 | Image load success image062.jpg
+07:28.44 | Match count 883
+07:28.45 | Speed calculated image061.jpg - image062.jpg - 8.4155
+07:28.45 | Pair started image061.jpg - image063.jpg
+07:28.45 | EXIF time read image061.jpg
+07:28.46 | EXIF time read image063.jpg
+07:28.46 | Pair skipped - Invalid dt
+07:28.46 | Pair started image062.jpg - image063.jpg
+07:28.46 | EXIF time read image062.jpg
+07:28.46 | EXIF time read image063.jpg
+07:28.55 | Image load success image062.jpg
+07:28.63 | Image load success image063.jpg
+07:29.80 | Match count 880
+07:29.81 | Speed calculated image062.jpg - image063.jpg - 6.5130
+07:29.81 | Pair started image062.jpg - image064.jpg
+07:29.81 | EXIF time read image062.jpg
+07:29.82 | EXIF time read image064.jpg
+07:29.82 | Pair skipped - Invalid dt
+07:29.82 | Pair started image063.jpg - image064.jpg
+07:29.82 | EXIF time read image063.jpg
+07:29.82 | EXIF time read image064.jpg
+07:29.91 | Image load success image063.jpg
+07:29.99 | Image load success image064.jpg
+07:31.14 | Match count 829
+07:31.15 | Speed calculated image063.jpg - image064.jpg - 6.4534
+07:31.15 | Pair started image063.jpg - image065.jpg
+07:31.15 | EXIF time read image063.jpg
+07:31.15 | EXIF time read image065.jpg
+07:31.15 | Pair skipped - Invalid dt
+07:31.15 | Pair started image064.jpg - image065.jpg
+07:31.16 | EXIF time read image064.jpg
+07:31.16 | EXIF time read image065.jpg
+07:31.24 | Image load success image064.jpg
+07:31.33 | Image load success image065.jpg
+07:32.47 | Match count 763
+07:32.47 | Speed calculated image064.jpg - image065.jpg - 6.3051
+07:32.47 | Pair started image064.jpg - image066.jpg
+07:32.48 | EXIF time read image064.jpg
+07:32.48 | EXIF time read image066.jpg
+07:32.48 | Pair skipped - Invalid dt
+07:32.48 | Pair started image065.jpg - image066.jpg
+07:32.49 | EXIF time read image065.jpg
+07:32.49 | EXIF time read image066.jpg
+07:32.57 | Image load success image065.jpg
+07:32.66 | Image load success image066.jpg
+07:33.79 | Match count 636
+07:33.80 | Speed calculated image065.jpg - image066.jpg - 6.1872
+07:33.80 | Pair started image065.jpg - image067.jpg
+07:33.80 | EXIF time read image065.jpg
+07:33.80 | EXIF time read image067.jpg
+07:33.80 | Pair skipped - Invalid dt
+07:33.80 | Pair started image066.jpg - image067.jpg
+07:33.81 | EXIF time read image066.jpg
+07:33.81 | EXIF time read image067.jpg
+07:33.89 | Image load success image066.jpg
+07:33.98 | Image load success image067.jpg
+07:35.09 | Match count 541
+07:35.10 | Speed calculated image066.jpg - image067.jpg - 7.9033
+07:35.10 | Pair started image066.jpg - image068.jpg
+07:35.10 | EXIF time read image066.jpg
+07:35.10 | EXIF time read image068.jpg
+07:35.10 | Pair skipped - Invalid dt
+07:35.11 | Pair started image067.jpg - image068.jpg
+07:35.11 | EXIF time read image067.jpg
+07:35.11 | EXIF time read image068.jpg
+07:35.19 | Image load success image067.jpg
+07:35.28 | Image load success image068.jpg
+07:36.39 | Match count 284
+07:36.39 | Speed calculated image067.jpg - image068.jpg - 6.3637
+07:36.39 | Pair started image067.jpg - image069.jpg
+07:36.39 | EXIF time read image067.jpg
+07:36.39 | EXIF time read image069.jpg
+07:36.39 | Pair skipped - Invalid dt
+07:36.40 | Pair started image068.jpg - image069.jpg
+07:36.40 | EXIF time read image068.jpg
+07:36.40 | EXIF time read image069.jpg
+07:36.48 | Image load success image068.jpg
+07:36.57 | Image load success image069.jpg
+07:37.67 | Match count 348
+07:37.67 | Speed calculated image068.jpg - image069.jpg - 8.4124
+07:37.67 | Pair started image068.jpg - image070.jpg
+07:37.67 | EXIF time read image068.jpg
+07:37.68 | EXIF time read image070.jpg
+07:37.68 | Pair skipped - Invalid dt
+07:37.68 | Pair started image069.jpg - image070.jpg
+07:37.68 | EXIF time read image069.jpg
+07:37.68 | EXIF time read image070.jpg
+07:37.77 | Image load success image069.jpg
+07:37.85 | Image load success image070.jpg
+07:38.94 | Match count 392
+07:38.95 | Speed calculated image069.jpg - image070.jpg - 8.2832
+07:38.95 | Pair started image069.jpg - image071.jpg
+07:38.95 | EXIF time read image069.jpg
+07:38.95 | EXIF time read image071.jpg
+07:38.95 | Pair skipped - Invalid dt
+07:38.95 | Pair started image070.jpg - image071.jpg
+07:38.96 | EXIF time read image070.jpg
+07:38.96 | EXIF time read image071.jpg
+07:39.04 | Image load success image070.jpg
+07:39.12 | Image load success image071.jpg
+07:40.22 | Match count 354
+07:40.22 | Speed calculated image070.jpg - image071.jpg - 10.1065
+07:40.22 | Pair started image070.jpg - image072.jpg
+07:40.23 | EXIF time read image070.jpg
+07:40.23 | EXIF time read image072.jpg
+07:40.23 | Pair skipped - Invalid dt
+07:40.23 | Pair started image071.jpg - image072.jpg
+07:40.23 | EXIF time read image071.jpg
+07:40.24 | EXIF time read image072.jpg
+07:40.32 | Image load success image071.jpg
+07:40.40 | Image load success image072.jpg
+07:41.51 | Match count 365
+07:41.51 | Speed calculated image071.jpg - image072.jpg - 7.9304
+07:41.51 | Pair started image071.jpg - image073.jpg
+07:41.51 | EXIF time read image071.jpg
+07:41.51 | EXIF time read image073.jpg
+07:41.51 | Pair skipped - Invalid dt
+07:41.52 | Pair started image072.jpg - image073.jpg
+07:41.52 | EXIF time read image072.jpg
+07:41.52 | EXIF time read image073.jpg
+07:41.60 | Image load success image072.jpg
+07:41.69 | Image load success image073.jpg
+07:42.79 | Match count 421
+07:42.79 | Speed calculated image072.jpg - image073.jpg - 7.7209
+07:42.79 | Pair started image072.jpg - image074.jpg
+07:42.80 | EXIF time read image072.jpg
+07:42.80 | EXIF time read image074.jpg
+07:42.80 | Pair skipped - Invalid dt
+07:42.80 | Pair started image073.jpg - image074.jpg
+07:42.80 | EXIF time read image073.jpg
+07:42.81 | EXIF time read image074.jpg
+07:42.89 | Image load success image073.jpg
+07:42.97 | Image load success image074.jpg
+07:44.08 | Match count 451
+07:44.09 | Speed calculated image073.jpg - image074.jpg - 7.5907
+07:44.09 | Pair started image073.jpg - image075.jpg
+07:44.09 | EXIF time read image073.jpg
+07:44.09 | EXIF time read image075.jpg
+07:44.09 | Pair skipped - Invalid dt
+07:44.09 | Pair started image074.jpg - image075.jpg
+07:44.10 | EXIF time read image074.jpg
+07:44.10 | EXIF time read image075.jpg
+07:44.18 | Image load success image074.jpg
+07:44.27 | Image load success image075.jpg
+07:45.39 | Match count 497
+07:45.40 | Speed calculated image074.jpg - image075.jpg - 9.2122
+07:45.40 | Pair started image074.jpg - image076.jpg
+07:45.40 | EXIF time read image074.jpg
+07:45.40 | EXIF time read image076.jpg
+07:45.40 | Pair skipped - Invalid dt
+07:45.41 | Pair started image075.jpg - image076.jpg
+07:45.41 | EXIF time read image075.jpg
+07:45.41 | EXIF time read image076.jpg
+07:45.50 | Image load success image075.jpg
+07:45.58 | Image load success image076.jpg
+07:46.71 | Match count 524
+07:46.71 | Speed calculated image075.jpg - image076.jpg - 7.0529
+07:46.71 | Outlier removal started
+07:46.71 | Speed removed as outlier 9.413952433736927
+07:46.71 | Speed removed as outlier 9.59040016937256
+07:46.71 | Speed removed as outlier 10.106520194152761
+07:46.71 | Speeds remaining 72
+07:46.71 | Final speed 7.1897
+07:46.74 | Result file write success
+07:46.74 | END
+07:46.74 | Total runtime 466.74s
